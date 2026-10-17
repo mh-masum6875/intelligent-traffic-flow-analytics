@@ -80,5 +80,18 @@ python src/multilane_flow_tracker.py --source data/traffic_sample.mp4 --conf 0.2
 
 ---
 
+
+---
+
+## 🚦 Extended Transportation Analytics & Production Capabilities
+
+In addition to the multi-lane junction tracker included in this repository, this algorithmic architecture supports advanced municipal traffic analytics:
+
+- **One-Way & Wrong-Way Transit Detection**: Vector-based trajectory tracking immediately flagging wrong-way vehicles entering ramps or one-way avenues.
+- **Perspective-Calibrated Speed Estimation**: Real-time velocity computation leveraging known roadway geometric markers with perspective transformation.
+- **Tailgating & Stopping Distance**: Dynamic spatial gap analysis calculating inter-vehicle headway time in seconds.
+- **Micromobility & Asset Protection**: Bicycle and motorcycle parking bay monitoring with unauthorized removal and theft alerts.
+- **Logistics Loading Dock Turnaround**: Automated arrival-to-departure timestamping measuring truck unloading durations and dock utilization rates.
+
 ## 📄 License
 This project is licensed under the MIT License.
