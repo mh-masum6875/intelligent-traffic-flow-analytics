@@ -1,4 +1,4 @@
-# 🚦 Intelligent Traffic Flow Analytics: Multi-Lane Intersection Counting & Directional State Machine
+# Traffic Flow Analytics: Multi-Lane Counting and a Directional State Machine
 
 [![YOLO](https://img.shields.io/badge/YOLO-v8%20%7C%20v11-00FFFF)](https://ultralytics.com/)
 [![DeepSORT](https://img.shields.io/badge/DeepSORT-Tracking-brightgreen)](https://github.com/nwojke/deep_sort)
@@ -10,7 +10,7 @@ An advanced traffic intelligence system designed for multi-lane urban junctions 
 
 ---
 
-## 📸 System In Action
+## System In Action
 
 ### 1. Daytime Multi-Lane Intersection Tracking
 Live tracking showing virtual detection lines (Line A, B, C, D) and directional matrix breakdown across vehicle types.
@@ -26,7 +26,7 @@ Directional flow classification on multi-lane highways with automated volume agg
 
 ---
 
-## 🧠 Core Algorithmic Architecture
+## Core Algorithmic Architecture
 
 ### 1. Multi-Line Directional Trajectory State Machine
 The system projects 6 virtual detection vectors:
@@ -62,7 +62,7 @@ Aggregates data directly into interval sheets (15-min / hourly matrices) compati
 
 ---
 
-## 🛠️ Quickstart & Setup
+## Quickstart & Setup
 
 ```bash
 # Clone the repository
@@ -83,7 +83,7 @@ python src/multilane_flow_tracker.py --source data/traffic_sample.mp4 --conf 0.2
 
 ---
 
-## 🚦 Extended Transportation Analytics & Production Capabilities
+## Related Analytics
 
 In addition to the multi-lane junction tracker included in this repository, this algorithmic architecture supports advanced municipal traffic analytics:
 
@@ -93,5 +93,5 @@ In addition to the multi-lane junction tracker included in this repository, this
 - **Micromobility & Asset Protection**: Bicycle and motorcycle parking bay monitoring with unauthorized removal and theft alerts.
 - **Logistics Loading Dock Turnaround**: Automated arrival-to-departure timestamping measuring truck unloading durations and dock utilization rates.
 
-## 📄 License
+## License
 This project is licensed under the MIT License.
