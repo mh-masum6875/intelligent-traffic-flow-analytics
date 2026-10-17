@@ -1,5 +1,7 @@
 # Traffic Flow Analytics: Multi-Lane Counting and a Directional State Machine
 
+Part of my [applied computer vision portfolio](https://github.com/mh-masum6875/enterprise-computer-vision-solutions).
+
 [![YOLO](https://img.shields.io/badge/YOLO-v8%20%7C%20v11-00FFFF)](https://ultralytics.com/)
 [![DeepSORT](https://img.shields.io/badge/DeepSORT-Tracking-brightgreen)](https://github.com/nwojke/deep_sort)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-5C3EE8?logo=opencv&logoColor=white)](https://opencv.org/)
@@ -66,8 +68,8 @@ Aggregates data directly into interval sheets (15-min / hourly matrices) compati
 
 ```bash
 # Clone the repository
-git clone https://github.com/mh-masum6875/intelligent-traffic-flow-analytics.git
-cd intelligent-traffic-flow-analytics
+git clone https://github.com/mh-masum6875/traffic-flow-analytics.git
+cd traffic-flow-analytics
 
 # Install dependencies
 pip install -r requirements.txt
